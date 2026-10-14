@@ -1,4 +1,3 @@
-
 SELECT *
 FROM customer;
 
@@ -42,41 +41,4 @@ FROM film
 ORDER BY rental_rate ASC, film_id
 OFFSET 10 ROWS
 FETCH NEXT 10 ROWS ONLY;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
