@@ -36,4 +36,4 @@ salary_aggregation = df.groupby('experience_level')['salary'].agg(['mean', 'medi
 salary_aggregation.rename(columns={'mean': 'average_salary', 'median': 'median_salary'}, inplace=True)
 
 print(f"\n--- Salary Aggregation by Experience Level ---")
-print(salary_aggregation)
+print(salary_aggregation)0
